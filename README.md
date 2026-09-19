@@ -1,4 +1,4 @@
-# Enterprise Document Q&A: Internal RAG Knowledge Agent
+# Internal RAG Knowledge Agent
 
 An enterprise-grade Retrieval-Augmented Generation (RAG) assistant that grounds AI responses directly on internal company policies (HR & IT SOPs) using **ChromaDB** for vector retrieval and **Gemini 3.6 Flash** with strict anti-hallucination guardrails.
 
