@@ -12,9 +12,9 @@ This repository demonstrates how to build an end-to-end internal knowledge assis
 
 | Module / Scenario | Key Capabilities | Interactive Notebook |
 | :--- | :--- | :--- |
-| **HR Policy Assistant** | Parses PTO accrual, equipment stipends, and rollover policies from synthetic HR documents. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/enterprise-rag-agent/blob/main/RAG_AgentV.ipynb) |
-| **IT Support SOPs** | Extracts security protocols, VPN rules, PhishAlarm reporting steps, and Slack incident handles. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/enterprise-rag-agent/blob/main/RAG_AgentV1.ipynb) |
-| **Strict Guardrails & Fallbacks** | Restricts model answers strictly to retrieved context, automatically triggering safe fallbacks for out-of-context queries. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/enterprise-rag-agent/blob/main/RAG_AgentV1.ipynb) |
+| **HR Policy Assistant** | Parses PTO accrual, equipment stipends, and rollover policies from synthetic HR documents. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal_RAG_Agent/blob/main/RAG_Agent.ipynb) |
+| **IT Support SOPs** | Extracts security protocols, VPN rules, PhishAlarm reporting steps, and Slack incident handles. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal-RAG-Agent/blob/main/RAG_Agent.ipynb) |
+| **Strict Guardrails & Fallbacks** | Restricts model answers strictly to retrieved context, automatically triggering safe fallbacks for out-of-context queries. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal-RAG-Agent/blob/main/RAG_Agent.ipynb) |
 
 ---
 
