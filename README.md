@@ -1,4 +1,4 @@
-# Acme Corp Internal RAG Knowledge Agent
+Internal RAG Knowledge Agent
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/enterprise-rag-agent/blob/main/RAG_Agent.ipynb)
 
