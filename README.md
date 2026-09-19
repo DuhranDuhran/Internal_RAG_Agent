@@ -22,7 +22,7 @@ This repository demonstrates how to build an end-to-end internal knowledge assis
 
 1. **Document Ingestion & Metadata Tagging:** Parses multi-department text files (`hr_policy.txt`, `it_sop.txt`), splits text by section breaks (`\n\n`), and tags chunks with department and source metadata.
 2. **Vector Indexing & Semantic Search:** Generates dense vector representations using `models/gemini-embedding-001` and indexes them in **ChromaDB** for fast distance-based similarity lookups.
-3. **Grounded Generation & Guardrails:** Passes top retrieved context blocks ($k=2$) to `gemini-2.5-flash` wrapped in strict system instructions to refuse queries missing from internal context.
+3. **Grounded Generation & Guardrails:** Passes top retrieved context blocks ($k=2$) to `gemini-3.6-flash` wrapped in strict system instructions to refuse queries missing from internal context.
 
 ---
 
