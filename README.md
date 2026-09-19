@@ -14,7 +14,7 @@ This repository demonstrates how to build an end-to-end internal knowledge assis
 | :--- | :--- | :--- |
 | **HR Policy Assistant** | Parses PTO accrual, equipment stipends, and rollover policies from synthetic HR documents. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal_RAG_Agent/blob/main/RAG_Agent.ipynb) |
 | **IT Support SOPs** | Extracts security protocols, VPN rules, PhishAlarm reporting steps, and Slack incident handles. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal_RAG_Agent/blob/main/RAG_Agent.ipynb) |
-| **Strict Guardrails & Fallbacks** | Restricts model answers strictly to retrieved context, automatically triggering safe fallbacks for out-of-context queries. | [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal_RAG_Agent/blob/main/RAG_Agent.ipynb) |
+| **Strict Guardrails & Fallbacks** | Restricts model answers strictly to retrieved context, automatically triggering safe fallbacks for out-of-context queries. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DuhranDuhran/Internal_RAG_Agent/blob/main/RAG_Agent.ipynb) |
 
 ---
 
@@ -26,9 +26,16 @@ This repository demonstrates how to build an end-to-end internal knowledge assis
 
 ---
 
+## ⚠️ API Execution Note (503 Warning Logs)
+
+* **Recorded Notebook Outputs:** The cell output logs in `RAG_Agent.ipynb` display occasional `503 Service Unavailable` stderr traces during model calls.
+* **Quota Preservation:** These warnings represent transient rate limits that automatically resolved upon retry. Execution outputs were deliberately preserved without re-running to avoid unnecessary API consumption.
+
+---
+
 ## 💻 Environment & Setup
 
-1. Open `RAG_AgentV1.ipynb` in Google Colab using the **Open in Colab** badges above.
+1. Open `RAG_Agent.ipynb` in Google Colab using any of the **Open in Colab** badges above.
 2. Store your API key in Google Colab:
    * Click the **Key Icon (🔑 Secrets)** in the left sidebar.
    * Add Name: `Gemini_API_Key1`
